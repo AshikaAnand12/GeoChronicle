@@ -8,18 +8,18 @@ const CountriesDetails = () => {
   const [mapData, setMapData] = useState(data);
   const [country, setCountry] = useState({});
   const { countryname } = useParams();
-  const [news, setNews] = useState([]); // [ { title: "", description: "", url: "" } ]
+  // const [news, setNews] = useState([]); // [ { title: "", description: "", url: "" } ]
 
   useEffect(() => {
-    const fetchNews = async (countryCode) => {
-      try {
-        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`);
-        const newsData = await response.json();
-        setNews(newsData.articles);
-      } catch (error) {
-        console.error("Error fetching news:", error);
-      }
-    }
+    // const fetchNews = async (countryCode) => {
+    //   try {
+    //     const response = await fetch(`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`);
+    //     const newsData = await response.json();
+    //     setNews(newsData.articles);
+    //   } catch (error) {
+    //     console.error("Error fetching news:", error);
+    //   }
+    // }
     const fetchCountry = async () => {
       try {
         const response = await fetch(`https://restcountries.com/v3.1/name/${countryname}`);
@@ -28,7 +28,7 @@ const CountriesDetails = () => {
           const countryData = countriesData[0];
           setCountry(countryData);
           setMapData([{ country: countryData.cca2, value: countryData.population }]);
-          fetchNews(countryData.cca2);
+          // fetchNews(countryData.cca2);
         }
       } catch (error) {
         console.error("Error fetching country:", error);
