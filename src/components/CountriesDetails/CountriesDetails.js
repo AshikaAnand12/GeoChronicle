@@ -5,25 +5,21 @@ import WorldMap from "react-svg-worldmap";
 
 const CountriesDetails = () => {
   const data = [{ country: 'in', value: 1 }];
-  const NEWS_API_KEY = process.env.REACT_APP_NEWS_API_KEY;
-
-
   const [mapData, setMapData] = useState(data);
   const [country, setCountry] = useState({});
   const { countryname } = useParams();
   const [news, setNews] = useState([]); // [ { title: "", description: "", url: "" } ]
 
-  const fetchNews = async (countryCode) => {
-    try {
-      const response = await fetch(`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=${NEWS_API_KEY}`);
-      const newsData = await response.json();
-      setNews(newsData.articles);
-    } catch (error) {
-      console.error("Error fetching news:", error);
-    }
-  }
-
   useEffect(() => {
+    const fetchNews = async (countryCode) => {
+      try {
+        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`);
+        const newsData = await response.json();
+        setNews(newsData.articles);
+      } catch (error) {
+        console.error("Error fetching news:", error);
+      }
+    }
     const fetchCountry = async () => {
       try {
         const response = await fetch(`https://restcountries.com/v3.1/name/${countryname}`);
