@@ -27,6 +27,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
+- [Demo](#demo)
 
 ## About GeoChronicle
 
@@ -71,3 +72,5 @@ GeoChronicle is a Progressive Web App (PWA) built with ReactJs, TailwindCSS, D3.
    setup .env file
    npm start
 
+## Demo
+View the live project at: https://geochronicle.netlify.app/
