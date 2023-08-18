@@ -14,6 +14,16 @@
   <img src="https://img.shields.io/badge/Deployment-Netlify-success.svg" alt="Deployment on Netlify">
 </p>
 
+<p align="center">
+  <img src="images/react-icon.png" alt="ReactJs" width="40">
+  <img src="images/tailwind-icon.png" alt="TailwindCSS" width="40">
+  <img src="images/d3-icon.png" alt="D3.js" width="40">
+  <img src="images/react-svg-worldmap-icon.png" alt="react-svg-worldmap" width="40">
+  <img src="images/pwa-icon.png" alt="PWA App" width="40">
+  <img src="images/api-icon.png" alt="API Handling" width="40">
+  <img src="images/netlify-icon.png" alt="Deployment on Netlify" width="40">
+</p>
+
 ## Table of Contents
 
 - [About GeoChronicle](#about-geochronicle)
