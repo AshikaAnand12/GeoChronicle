@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img width="200" src="images/geochronicle-logo.png" alt="GeoChronicle">
+  <img width="200" src="public/logo512.png" alt="GeoChronicle">
   <br>
   GeoChronicle
   <br>
