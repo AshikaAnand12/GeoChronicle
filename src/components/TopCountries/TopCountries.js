@@ -4,7 +4,7 @@ import * as d3 from "d3";
 
 const TopCountries = () => {
   const [allCountries, setAllCountries] = useState([]);
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
   const [criteria, setCriteria] = useState('population');
   const [mapData, setMapData] = useState([{ country: "in", value: 1}]);
 
@@ -31,14 +31,11 @@ const TopCountries = () => {
       }));
       const totalPopulation = filteredCountryData.reduce((accumulator, country) => accumulator + parseInt(country.population), 0);
       const totalArea = filteredCountryData.reduce((accumulator, country) => accumulator + parseInt(country.area), 0); 
-      console.log(filteredCountryData);
       setPopulation([0,totalPopulation])
       setArea([0,totalArea])
       setAllCountries(filteredCountryData);
     };
     fetchAllCountries();
-    setCount(0);
-    setCriteria('population')
   },[])
 
   useEffect(() => {
@@ -50,13 +47,13 @@ const TopCountries = () => {
     setMapData(topCountries);
     if(criteria==='population'){
       const topPopulation = allCountries.slice(0,count).reduce((accumulator, country) => accumulator + parseInt(country.population), 0);
-      setPopulation([topPopulation, population[1]]);
+      setPopulation(prevPopulation => [topPopulation, prevPopulation[1]]);
     }
     else{
       const topArea = allCountries.slice(0,count).reduce((accumulator, country) => accumulator + parseInt(country.area), 0);
-      setArea([topArea, area[1]]);
+      setArea(prevArea => [topArea, prevArea[1]]);
     }
-  }, [count, criteria, allCountries, area, population]);
+  },[count,criteria,allCountries])
 
   const handleCountChange = (e) => {
     setCount(parseInt(e.target.value))
@@ -77,8 +74,8 @@ const TopCountries = () => {
     const svg = d3.select(svgRef.current)
                   .attr('width', width)
                   .attr('height', height)
-                  .style('margin-left', '500')
-                  .style('margin-top', '200')
+                  .style('margin-left', '30%')
+                  .style('margin-top', '30%')
                   .style('overflow', 'visible')
 
     const tooltip = d3.select('body').append('div')
@@ -152,8 +149,7 @@ const TopCountries = () => {
     const svgPopulation = d3.select(svgRefPopulation.current)
                   .attr('width', width)
                   .attr('height', height)
-                  .style('margin-left', '500')
-                  .style('margin-bottom', '80')
+                  .style('margin', '20%')
                   .style('overflow', 'visible')
 
     const xScalePopulation = d3.scaleLinear()
@@ -198,11 +194,9 @@ const TopCountries = () => {
     const height = 250;
 
     const svgArea = d3.select(svgRefArea.current)
-                  .attr('width', width)
-                  .attr('height', height)
-                  .style('margin-left', '500')
-                  .style('margin-bottom', '80')
-                  .style('overflow', 'visible')
+                  .attr('viewBox', `0 0 ${width} ${height}`)
+                  .style('margin', '20%')
+                  .style('position', 'relative');
 
     const xScaleArea = d3.scaleLinear()
                   .domain([0, area[1]])
