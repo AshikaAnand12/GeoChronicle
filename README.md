@@ -1,4 +1,4 @@
-# GeoChronicle : The World at a Glance
+# [GeoChronicle : The World at a Glance](https://geochronicle.netlify.app/)
 
 <p align="center">
   Your one-stop app to explore countries, view maps, and stay updated with top news, and compare top countries by population and area!
