@@ -23,16 +23,18 @@ const Home = () => {
 
 
   const handleReadMore = (countryname) => {
+    console.log(countryname)
     navigate(`/countriesdetails/${countryname}`)
   }
 
   useEffect(() => {
     const fetchAllCountries = async () => {
       const resp = await fetch(
-        'https://restcountries.com/v3.1/all?fields=name,capital,flags,area,population,continents,currencies'
+        'https://restcountries.com/v3.1/all?fields=name,capital,flags,area,population,continents,currencies,cca2'
       );
       const countryData = await resp.json();
       setAllCountries(countryData);
+      console.log(countryData)
     };
     fetchAllCountries();
   }, []);
@@ -71,7 +73,7 @@ const Home = () => {
                   <span className="text-sm text-gray-500 dark:text-gray-400">{country.continents}</span>
                 </div>
                 <button type="button" 
-                        onClick={()=>{handleReadMore(country.name.common)}}
+                        onClick={()=>{handleReadMore(country.cca2)}}
                         className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                           Read More
                 </button>
