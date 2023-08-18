@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/TailwindCSS-2.2-blue.svg" alt="TailwindCSS 2.2">
   <img src="https://img.shields.io/badge/D3.js-7.0-blue.svg" alt="D3.js 7.0">
   <img src="https://img.shields.io/badge/react--svg--worldmap-3.0-blue.svg" alt="react-svg-worldmap 3.0">
+  <img src="https://img.shields.io/badge/PWA-Yes-brightgreen.svg" alt="PWA App">
+  <img src="https://img.shields.io/badge/API-Handled-success.svg" alt="API Handling">
   <img src="https://img.shields.io/badge/Deployment-Netlify-success.svg" alt="Deployment on Netlify">
 </p>
 
@@ -16,8 +18,6 @@
   <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="ReactJs" width="40">
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="TailwindCSS" width="40">
   <img src="https://www.vectorlogo.zone/logos/d3js/d3js-icon.svg" alt="D3.js" width="40">
-  <img src="https://www.vectorlogo.zone/logos/pwa/pwa-icon.svg" alt="PWA App" width="40">
-  <img src="https://www.vectorlogo.zone/logos/apiplatformio/apiplatformio-icon.svg" alt="API Handling" width="40">
   <img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" alt="Deployment on Netlify" width="40">
 </p>
 
