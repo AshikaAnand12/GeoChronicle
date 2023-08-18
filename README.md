@@ -9,8 +9,6 @@
   <img src="https://img.shields.io/badge/TailwindCSS-2.2-blue.svg" alt="TailwindCSS 2.2">
   <img src="https://img.shields.io/badge/D3.js-7.0-blue.svg" alt="D3.js 7.0">
   <img src="https://img.shields.io/badge/react--svg--worldmap-3.0-blue.svg" alt="react-svg-worldmap 3.0">
-  <img src="https://img.shields.io/badge/PWA-Yes-brightgreen.svg" alt="PWA App">
-  <img src="https://img.shields.io/badge/API-Handled-success.svg" alt="API Handling">
   <img src="https://img.shields.io/badge/Deployment-Netlify-success.svg" alt="Deployment on Netlify">
 </p>
 
