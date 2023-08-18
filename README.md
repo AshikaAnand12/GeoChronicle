@@ -1,13 +1,5 @@
 # GeoChronicle : The World at a Glance
 
-<h1 align="center">
-  <br>
-  <img width="200" src="public/logo512.png" alt="GeoChronicle">
-  <br>
-  GeoChronicle
-  <br>
-</h1>
-
 <p align="center">
   Your one-stop app to explore countries, view maps, and stay updated with top news!
 </p>
@@ -29,9 +21,6 @@
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About GeoChronicle
 
@@ -58,4 +47,11 @@ GeoChronicle is a Progressive Web App (PWA) built with ReactJs, TailwindCSS, D3.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/GeoChronicle.git
+   git clone https://github.com/AshikaAnand12/GeoChronicle.git
+
+2. Installation and Starting
+   ```bash
+   npm install
+   setup .env file
+   npm start
+
