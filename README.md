@@ -1,7 +1,7 @@
 # GeoChronicle : The World at a Glance
 
 <p align="center">
-  Your one-stop app to explore countries, view maps, and stay updated with top news!
+  Your one-stop app to explore countries, view maps, and stay updated with top news, and compare top countries by population and area!
 </p>
 
 <p align="center">
@@ -23,13 +23,14 @@
 
 ## About GeoChronicle
 
-GeoChronicle is a Progressive Web App (PWA) built with ReactJs, TailwindCSS, D3.js, and react-svg-worldmap. It provides users with the ability to explore details about different countries, view them on a map, and stay updated with today's top news from those countries.
+GeoChronicle is a Progressive Web App (PWA) built with ReactJs, TailwindCSS, D3.js, and react-svg-worldmap. It provides users with the ability to explore details about different countries, view them on a map, stay updated with today's top news from those countries, and compare top countries by population and area.
 
 ## Features
 
 - Detailed country information display
 - Interactive world map view
 - Real-time top news from selected countries
+- **Compare Top Countries:** Explore a visual comparison of the top countries by population and area through interactive bar graphs and responsive pie charts. Gain insights into how these top countries stack up against the rest of the world.
 
 ## Technologies Used
 
