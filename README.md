@@ -15,13 +15,12 @@
 </p>
 
 <p align="center">
-  <img src="images/react-icon.png" alt="ReactJs" width="40">
-  <img src="images/tailwind-icon.png" alt="TailwindCSS" width="40">
-  <img src="images/d3-icon.png" alt="D3.js" width="40">
-  <img src="images/react-svg-worldmap-icon.png" alt="react-svg-worldmap" width="40">
-  <img src="images/pwa-icon.png" alt="PWA App" width="40">
-  <img src="images/api-icon.png" alt="API Handling" width="40">
-  <img src="images/netlify-icon.png" alt="Deployment on Netlify" width="40">
+  <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="ReactJs" width="40">
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="TailwindCSS" width="40">
+  <img src="https://www.vectorlogo.zone/logos/d3js/d3js-icon.svg" alt="D3.js" width="40">
+  <img src="https://www.vectorlogo.zone/logos/pwa/pwa-icon.svg" alt="PWA App" width="40">
+  <img src="https://www.vectorlogo.zone/logos/apiplatformio/apiplatformio-icon.svg" alt="API Handling" width="40">
+  <img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" alt="Deployment on Netlify" width="40">
 </p>
 
 ## Table of Contents
