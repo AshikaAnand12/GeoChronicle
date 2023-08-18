@@ -35,9 +35,18 @@ GeoChronicle is a Progressive Web App (PWA) built with ReactJs, TailwindCSS, D3.
 ## Features
 
 - Detailed country information display
+  <img width="1440" alt="geochronicle-homescreen" src="https://github.com/AshikaAnand12/GeoChronicle/assets/61357783/a9e2464a-aa05-479f-a151-7a5a4dcded79">
+<img width="1440" alt="geochronicle-singlecountry" src="https://github.com/AshikaAnand12/GeoChronicle/assets/61357783/23975a2f-3602-450d-ba0a-fa11c74ee6d8">
+
 - Interactive world map view
+  <img width="1440" alt="geochronicle-topcountries" src="https://github.com/AshikaAnand12/GeoChronicle/assets/61357783/f06ab03b-e1bd-499b-bc33-eec702217ccd">
+
 - Real-time top news from selected countries
+  <img width="1440" alt="geochronicle-news" src="https://github.com/AshikaAnand12/GeoChronicle/assets/61357783/a11f8103-372a-4dca-90a9-115999770dae">
+
 - **Compare Top Countries:** Explore a visual comparison of the top countries by population and area through interactive bar graphs and responsive pie charts. Gain insights into how these top countries stack up against the rest of the world.
+  <img width="1440" alt="geochronicle-piechart" src="https://github.com/AshikaAnand12/GeoChronicle/assets/61357783/b13afdce-7f11-4592-b271-453db4a8ffa8">
+
 
 ## Technologies Used
 
