@@ -19,8 +19,7 @@
 - [About GeoChronicle](#about-geochronicle)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
+- [Setup](#setup)
 
 ## About GeoChronicle
 
@@ -42,7 +41,7 @@ GeoChronicle is a Progressive Web App (PWA) built with ReactJs, TailwindCSS, D3.
 - API handling for fetching country and news data
 - Deployment on [Netlify](https://www.netlify.com/) using environment variables
 
-## Getting Started
+## Setup
 
 1. Clone the repository:
 
