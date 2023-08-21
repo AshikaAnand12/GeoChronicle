@@ -90,25 +90,25 @@ const CountriesDetails = () => {
         </div>
       </div>
 
-      // {news.length > 0 && (
-      //   <div className="mt-4 border border-blue rounded m-5 pt-5">
-      //   <div className="text-gray-800 text-xl font-semibold mb-4">Today's Top News</div>
-      //   {news.map((article, index) => (
-      //     <div key={index} className="border border-gray-600 p-4 mb-4 rounded m-10">
-      //       <p className="text-gray-800 text-lg font-semibold mb-2">{article.title}</p>
-      //       <p className="text-gray-600 text-sm mb-2">{article.description}</p>
-      //       <a
-      //         href={article.url}
-      //         target="_blank"
-      //         rel="noopener noreferrer"
-      //         className="text-white border border-white rounded py-1 px-3 bg-blue-500 hover:bg-blue-900 hover:text-white"
-      //       >
-      //         Read More
-      //       </a>
-      //     </div>
-      //   ))}
-      // </div>
-      // )}
+      {/* {news.length > 0 && (
+        <div className="mt-4 border border-blue rounded m-5 pt-5">
+        <div className="text-gray-800 text-xl font-semibold mb-4">Today's Top News</div>
+        {news.map((article, index) => (
+          <div key={index} className="border border-gray-600 p-4 mb-4 rounded m-10">
+            <p className="text-gray-800 text-lg font-semibold mb-2">{article.title}</p>
+            <p className="text-gray-600 text-sm mb-2">{article.description}</p>
+            <a
+              href={article.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white border border-white rounded py-1 px-3 bg-blue-500 hover:bg-blue-900 hover:text-white"
+            >
+              Read More
+            </a>
+          </div>
+        ))}
+      </div>
+      )} */}
 
     </>
   );
